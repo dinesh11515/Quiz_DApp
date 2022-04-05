@@ -1,0 +1,64 @@
+body{
+    font-family: 'karla';
+    margin: 0;
+    background-color: #FBD6D2;
+}
+
+.options{
+    display: flex;
+    gap: 20px;
+    
+}
+.que{
+    letter-spacing: 0.1rem;
+}
+
+.options > button {
+    border-radius: 5px;
+    color:black;
+    border: none;
+    padding: 5px;
+}
+
+.start{
+    text-align: center;
+}
+.check > button {
+    background-color: #A63EC5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 0.01rem;
+}
+
+.connect{
+    display: flex;
+    text-align: right;
+    box-shadow: 0px 1px;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+.check{
+    text-align: center;
+    
+}
+.connect > h1 {
+    margin-right: auto;
+}
+.connect > button {
+    color: white;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    border-radius: 8px;
+    background: linear-gradient(#CE49BF, #A63EC5);
+}
+
+.ques_print{
+    padding: 25px 50px;
+}
